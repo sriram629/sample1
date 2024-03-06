@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'C:/Program Files/nodejs/npm install' 
+                bat 'npm install' 
             }
         }
     }
